@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44673008, g: 0.4965883, b: 0.575022, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -836,7 +836,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 423642304}
   m_HandleRect: {fileID: 423642303}
   m_Direction: 0
-  m_Value: 1.0000001
+  m_Value: 1
   m_Size: 0.5581948
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -1218,8 +1218,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Pose2D: 0
   m_Pose3D: 1
-  m_Pose3DScaleEstimation: 0
-  m_HumanBodyPrefab: {fileID: 0}
+  m_Pose3DScaleEstimation: 1
+  m_HumanBodyPrefab: {fileID: 1959473036}
 --- !u!1 &1346197546
 GameObject:
   m_ObjectHideFlags: 0
@@ -1572,9 +1572,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf5ecb2146fc5426f910be243e4df158, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SkeletonPrefab: {fileID: 6790265602204177959, guid: d93d5415c51fa49aba66e61ec7b78b34,
+  skeletonPrefab: {fileID: 2145425509096984332, guid: 6ea993634f68940f2bd707f4215ca3da,
     type: 3}
-  m_HumanBodyManager: {fileID: 1335839536}
+  skeletonOffsetX: -0.8
+  skeletonOffsetY: 0
+  skeletonOffsetZ: 0
+  humanBodyManager: {fileID: 1335839536}
 --- !u!1 &2115200041
 GameObject:
   m_ObjectHideFlags: 0

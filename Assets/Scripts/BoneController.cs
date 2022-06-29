@@ -1,4 +1,4 @@
-﻿using UnityEngine.XR.ARFoundation;
+using UnityEngine.XR.ARFoundation;
 using UnityEngine;
 using UnityEngine.XR.ARSubsystems;
 using System.Collections.Generic;
@@ -146,23 +146,24 @@ namespace UnityEngine.XR.ARFoundation.Samples
             }
         }
 
-        public void ApplyBodyPose(ARHumanBody body)
-        {
-            var joints = body.joints;
-            if (!joints.IsCreated)
-                return;
+     
+    public void ApplyBodyPose(ARHumanBody body)
+    {
+        var joints = body.joints;
+        if (!joints.IsCreated)
+            return;
 
-            for (int i = 0; i < k_NumSkeletonJoints; ++i)
+        for (int i = 0; i < k_NumSkeletonJoints; ++i)
+        {
+            XRHumanBodyJoint joint = joints[i];
+            var bone = m_BoneMapping[i];
+            if (bone != null)
             {
-                XRHumanBodyJoint joint = joints[i];
-                var bone = m_BoneMapping[i];
-                if (bone != null)
-                {
-                    bone.transform.localPosition = joint.localPose.position;
-                    bone.transform.localRotation = joint.localPose.rotation;
-                }
+                bone.transform.localPosition = joint.localPose.position;
+                bone.transform.localRotation = joint.localPose.rotation;
             }
         }
+    }
 
         void ProcessJoint(Transform joint)
         {

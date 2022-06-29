@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
@@ -10,7 +10,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
     {
         [SerializeField]
         [Tooltip("The Skeleton prefab to be controlled.")]
-        GameObject m_SkeletonPrefab;
+        public GameObject m_SkeletonPrefab;
 
         [SerializeField]
         [Tooltip("The ARHumanBodyManager which will produce body tracking events.")]
@@ -47,19 +47,26 @@ namespace UnityEngine.XR.ARFoundation.Samples
             if (m_HumanBodyManager != null)
                 m_HumanBodyManager.humanBodiesChanged -= OnHumanBodiesChanged;
         }
-
+        [SerializeField]
+        [Tooltip("The Instantiated model.")]
+        public GameObject newSkeletonGO = null;
+        public bool changed = false;
+        
         void OnHumanBodiesChanged(ARHumanBodiesChangedEventArgs eventArgs)
         {
             BoneController boneController;
 
             foreach (var humanBody in eventArgs.added)
             {
-                if (!m_SkeletonTracker.TryGetValue(humanBody.trackableId, out boneController))
+                if (!m_SkeletonTracker.TryGetValue(humanBody.trackableId, out boneController) || changed)
                 {
+                    if (newSkeletonGO != null)
+                        Destroy(newSkeletonGO);
                     Debug.Log($"Adding a new skeleton [{humanBody.trackableId}].");
-                    var newSkeletonGO = Instantiate(m_SkeletonPrefab, humanBody.transform);
+                    newSkeletonGO = Instantiate(m_SkeletonPrefab, humanBody.transform);
                     boneController = newSkeletonGO.GetComponent<BoneController>();
                     m_SkeletonTracker.Add(humanBody.trackableId, boneController);
+                    changed = false;
                 }
 
                 boneController.InitializeSkeletonJoints();
