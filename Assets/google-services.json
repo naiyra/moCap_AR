@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "221469241483",
+    "firebase_url": "https://ar-motion-capture-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "ar-motion-capture",
+    "storage_bucket": "ar-motion-capture.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221469241483:android:75aeefbfecd8109795e48e",
+        "android_client_info": {
+          "package_name": "google.firebase.Mocap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "221469241483-to6c9e4edld0dj2g4p4d030bhqehre7j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "google.firebase.Mocap",
+            "certificate_hash": "6ff7c294457fa78d6a9d2aa5e984170280d01508"
+          }
+        },
+        {
+          "client_id": "221469241483-tsqrugvsdq9tffdkifftujicgd2a8gr7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQMIMzvd_-s-KcF22_cmkgrDL07klUAHo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "221469241483-tsqrugvsdq9tffdkifftujicgd2a8gr7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "221469241483-m804n7dvn2qqscr3jfdgf4gt1j8p6iv5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "google.firebase.Mocap"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

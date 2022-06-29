@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/firebase_database_url,@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_android_client_id,@string/default_web_client_id">
+  <string name="firebase_database_url" translatable="false">https://ar-motion-capture-default-rtdb.europe-west1.firebasedatabase.app</string>
+  <string name="gcm_defaultSenderId" translatable="false">221469241483</string>
+  <string name="google_storage_bucket" translatable="false">ar-motion-capture.appspot.com</string>
+  <string name="project_id" translatable="false">ar-motion-capture</string>
+  <string name="google_api_key" translatable="false">AIzaSyAQMIMzvd_-s-KcF22_cmkgrDL07klUAHo</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAQMIMzvd_-s-KcF22_cmkgrDL07klUAHo</string>
+  <string name="google_app_id" translatable="false">1:221469241483:android:75aeefbfecd8109795e48e</string>
+  <string name="default_android_client_id" translatable="false">221469241483-to6c9e4edld0dj2g4p4d030bhqehre7j.apps.googleusercontent.com</string>
+  <string name="default_web_client_id" translatable="false">221469241483-tsqrugvsdq9tffdkifftujicgd2a8gr7.apps.googleusercontent.com</string>
+</resources>
