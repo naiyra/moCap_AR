@@ -54,5 +54,6 @@ public class ButtonManager : MonoBehaviour
     private void SelectObject()
     {
         DataHandler.Instance.Setmodels(_itemId);
+        
     }
 }

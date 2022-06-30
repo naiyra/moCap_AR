@@ -57,6 +57,7 @@ public class DataHandler : MonoBehaviour
     public void Setmodels(int id)
     {
         models = _items[id].itemPrefab;
+        this.gameObject.GetComponent<SetModels>().setModel();
     }
 
     public GameObject Getmodels()
