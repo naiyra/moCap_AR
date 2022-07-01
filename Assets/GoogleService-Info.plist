@@ -13,21 +13,21 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>google.firebase.Mocap</string>
+	<string>com.unity.arfoundation.samples.nira</string>
 	<key>PROJECT_ID</key>
 	<string>ar-motion-capture</string>
 	<key>STORAGE_BUCKET</key>
 	<string>ar-motion-capture.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_APPINVITE_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_GCM_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:221469241483:ios:5f286c578f1fb17995e48e</string>
 	<key>DATABASE_URL</key>

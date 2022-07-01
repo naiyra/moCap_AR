@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f49d3b48f85e294499a460599042a94, type: 3}
   m_Name: Model3
   m_EditorClassIdentifier: 
-  itemPrefab: {fileID: 3661165037094109588, guid: 15415032c4410914dbcd9e5571d06ade,
+  itemPrefab: {fileID: 5185241029367225707, guid: 9a0655879d708483fa9d4ee4f1942eb2,
     type: 3}
   itemImage: {fileID: 21300000, guid: c4beddab91e63074b8557d87d8a0dc34, type: 3}

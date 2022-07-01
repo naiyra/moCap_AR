@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>221469241483-r8kdc48g4ubgmo0093aimjnc9aj6pbfl.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.221469241483-r8kdc48g4ubgmo0093aimjnc9aj6pbfl</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>221469241483-to6c9e4edld0dj2g4p4d030bhqehre7j.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAd4dqALJZeSbVjWGgCmGqoCgL-YgVw318</string>
+	<key>GCM_SENDER_ID</key>
+	<string>221469241483</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.unity.arfoundation.samples.nira</string>
+	<key>PROJECT_ID</key>
+	<string>ar-motion-capture</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ar-motion-capture.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:221469241483:ios:e248a7aff5ce305d95e48e</string>
+	<key>DATABASE_URL</key>
+	<string>https://ar-motion-capture-default-rtdb.europe-west1.firebasedatabase.app</string>
+</dict>
+</plist>

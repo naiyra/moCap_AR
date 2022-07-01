@@ -20,8 +20,10 @@ public class manage : MonoBehaviour
             stop = true;
         }
         GameObject model = GameObject.Find("Human Body Tracking");
-        model.GetComponent<HumanBodyTracker>().newSkeletonGO.GetComponent<AnimationRecorder>().startRecord = start;
-        model.GetComponent<HumanBodyTracker>().newSkeletonGO.GetComponent<AnimationRecorder>().stopRecord = stop;
+       
+
+ //model.GetComponent<HumanBodyTracker>().newSkeletonGO.GetComponent<AnimationRecorder>().startRecord = start;
+ //model.GetComponent<HumanBodyTracker>().newSkeletonGO.GetComponent<AnimationRecorder>().stopRecord = stop;
         
 
 

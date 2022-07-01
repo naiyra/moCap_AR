@@ -81,6 +81,24 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 5419172785534263354}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &3278343924408493068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5185241029367225707}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 497b3dc7ceb03a2459fe48246423d104, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _clipName: Animation
+  _frameRate: 15
+  _deleteRecKey: p
+  _deleteIndexKey: l
+  startRecord: 0
+  stopRecord: 0
 --- !u!114 &4440249147856503778
 MonoBehaviour:
   m_ObjectHideFlags: 0

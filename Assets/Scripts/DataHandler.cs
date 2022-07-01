@@ -51,6 +51,7 @@ public class DataHandler : MonoBehaviour
             b.ItemId = current_id;
             b.ButtonTexture = i.itemImage;
             current_id++;
+            
         }
     }
 
@@ -65,5 +66,5 @@ public class DataHandler : MonoBehaviour
         return models;
     }
 
- 
+    
 }

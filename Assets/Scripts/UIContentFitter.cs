@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class UIContentFitter : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // Start iss called before the first frame update
     void Start()
     {
 

@@ -1514,17 +1514,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-<<<<<<< HEAD
       - m_Target: {fileID: 1208884490}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
-=======
-      - m_Target: {fileID: 631727491}
-        m_TargetAssemblyTypeName: Firebaseapp, Assembly-CSharp
-        m_MethodName: Login
-        m_Mode: 1
->>>>>>> 99dc37831eb65e02391ccf35054837be74e08aeb
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
